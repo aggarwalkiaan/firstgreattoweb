@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Awesome Website</title>
+    <style>
+        body {
+            background-color: green !important; /* Forces green background */
+            color: white !important;            /* Forces white text */
+            text-align: center;
+            font-family: sans-serif;
+        }
+        button {
+            background-color: white;
+            color: green;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: limegreen !important;
+            color: white !important;
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to My Website</h1>
+<img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400" width="300">
+<h2>Check out my favourite website <a href="https://www.wikipedia.org" style="color: darkblue;">Wikipedia</a></h2>
+<ul>
+    <li>to build websites</li>
+    <li>to learn html</li>
+</ul>
+<h3>Contact Me</h3>
+<form name="contact" method="POST" data-netlify="true">
+    <label>Your Email (Optional):</label><br>
+    <input type="email" name="email" placeholder="name@example.com"><br><br>
+    <label>Your Message:</label><br>
+    <textarea name="message" rows="4" placeholder="Say hello!"></textarea><br><br>
+    <button type="submit">Send Message</button>
+</form>
+</body>
+</html>
